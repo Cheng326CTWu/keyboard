@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -551,7 +551,7 @@ COL14
 $Sheet
 S 7300 3150 2650 2550
 U 5F263B8C
-F0 "keyboard_matrix" 50
-F1 "keyboard_matrix.sch" 50
+F0 "switch_matrix" 50
+F1 "switch_matrix.sch" 50
 $EndSheet
 $EndSCHEMATC

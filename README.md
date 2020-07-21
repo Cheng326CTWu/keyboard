@@ -1,8 +1,8 @@
-# 60% keyboard
+# 65% keyboard
 
 ## Overview
 
-This repo contains a 60% keyboard PCB design made by following tutorials
+This repo contains a 65% keyboard PCB design made by following tutorials
 
 ## Software Requirement
 

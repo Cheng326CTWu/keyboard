@@ -1,0 +1,136 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	1000 1500 1150 1500
+$Comp
+L Device:D_Small D?
+U 1 1 5F26721C
+P 1000 1600
+F 0 "D?" H 1000 1700 50  0000 R CNN
+F 1 "D_Small" H 1400 1700 50  0000 R CNN
+F 2 "" V 1000 1600 50  0001 C CNN
+F 3 "~" V 1000 1600 50  0001 C CNN
+	1    1000 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F265C3C
+P 1200 1350
+F 0 "MX?" H 1233 1573 60  0000 C CNN
+F 1 "MX-NoLED" H 1233 1499 20  0000 C CNN
+F 2 "" H 575 1325 60  0001 C CNN
+F 3 "" H 575 1325 60  0001 C CNN
+	1    1200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F272AF8
+P 1200 2050
+F 0 "MX?" H 1233 2273 60  0000 C CNN
+F 1 "MX-NoLED" H 1233 2199 20  0000 C CNN
+F 2 "" H 575 2025 60  0001 C CNN
+F 3 "" H 575 2025 60  0001 C CNN
+	1    1200 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5F272AFE
+P 1000 2300
+F 0 "D?" H 1000 2400 50  0000 R CNN
+F 1 "D_Small" H 1400 2400 50  0000 R CNN
+F 2 "" V 1000 2300 50  0001 C CNN
+F 3 "~" V 1000 2300 50  0001 C CNN
+	1    1000 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1000 2200 1150 2200
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F273399
+P 1200 2750
+F 0 "MX?" H 1233 2973 60  0000 C CNN
+F 1 "MX-NoLED" H 1233 2899 20  0000 C CNN
+F 2 "" H 575 2725 60  0001 C CNN
+F 3 "" H 575 2725 60  0001 C CNN
+	1    1200 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5F27339F
+P 1000 3000
+F 0 "D?" H 1000 3100 50  0000 R CNN
+F 1 "D_Small" H 1400 3100 50  0000 R CNN
+F 2 "" V 1000 3000 50  0001 C CNN
+F 3 "~" V 1000 3000 50  0001 C CNN
+	1    1000 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1000 2900 1150 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F273982
+P 1200 3450
+F 0 "MX?" H 1233 3673 60  0000 C CNN
+F 1 "MX-NoLED" H 1233 3599 20  0000 C CNN
+F 2 "" H 575 3425 60  0001 C CNN
+F 3 "" H 575 3425 60  0001 C CNN
+	1    1200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5F273988
+P 1000 3700
+F 0 "D?" H 1000 3800 50  0000 R CNN
+F 1 "D_Small" H 1400 3800 50  0000 R CNN
+F 2 "" V 1000 3700 50  0001 C CNN
+F 3 "~" V 1000 3700 50  0001 C CNN
+	1    1000 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1000 3600 1150 3600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F273F09
+P 1200 4150
+F 0 "MX?" H 1233 4373 60  0000 C CNN
+F 1 "MX-NoLED" H 1233 4299 20  0000 C CNN
+F 2 "" H 575 4125 60  0001 C CNN
+F 3 "" H 575 4125 60  0001 C CNN
+	1    1200 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5F273F0F
+P 1000 4400
+F 0 "D?" H 1000 4500 50  0000 R CNN
+F 1 "D_Small" H 1400 4500 50  0000 R CNN
+F 2 "" V 1000 4400 50  0001 C CNN
+F 3 "~" V 1000 4400 50  0001 C CNN
+	1    1000 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1000 4300 1150 4300
+$EndSCHEMATC

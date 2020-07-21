@@ -1,0 +1,40 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F265C3C
+P 2400 1800
+F 0 "MX?" H 2433 2023 60  0000 C CNN
+F 1 "MX-NoLED" H 2433 1949 20  0000 C CNN
+F 2 "" H 1775 1775 60  0001 C CNN
+F 3 "" H 1775 1775 60  0001 C CNN
+	1    2400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5F26721C
+P 2200 2050
+F 0 "D?" H 2200 2150 50  0000 R CNN
+F 1 "D_Small" H 2600 2150 50  0000 R CNN
+F 2 "" V 2200 2050 50  0001 C CNN
+F 3 "~" V 2200 2050 50  0001 C CNN
+	1    2200 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 1950 2350 1950
+$EndSCHEMATC
