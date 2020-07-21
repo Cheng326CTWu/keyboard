@@ -1,0 +1,167 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:USB_C_Receptacle J1
+U 1 1 5F21522B
+P 3900 3300
+F 0 "J1" H 4007 4567 50  0000 C CNN
+F 1 "USB_C_Receptacle" H 4007 4476 50  0000 C CNN
+F 2 "" H 4050 3300 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 4050 3300 50  0001 C CNN
+	1    3900 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 5F217943
+P 5050 2500
+F 0 "R5" V 4854 2500 50  0000 C CNN
+F 1 "5.1k" V 4945 2500 50  0000 C CNN
+F 2 "" H 5050 2500 50  0001 C CNN
+F 3 "~" H 5050 2500 50  0001 C CNN
+	1    5050 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5F218149
+P 5450 2600
+F 0 "R6" V 5254 2600 50  0000 C CNN
+F 1 "5.1k" V 5345 2600 50  0000 C CNN
+F 2 "" H 5450 2600 50  0001 C CNN
+F 3 "~" H 5450 2600 50  0001 C CNN
+	1    5450 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5F2191EC
+P 6150 2600
+F 0 "#PWR0111" H 6150 2350 50  0001 C CNN
+F 1 "GND" H 6155 2427 50  0000 C CNN
+F 2 "" H 6150 2600 50  0001 C CNN
+F 3 "" H 6150 2600 50  0001 C CNN
+	1    6150 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2500 4950 2500
+Wire Wire Line
+	5150 2500 6150 2500
+Wire Wire Line
+	6150 2500 6150 2600
+Wire Wire Line
+	5550 2600 6150 2600
+Connection ~ 6150 2600
+Wire Wire Line
+	5350 2600 4500 2600
+$Comp
+L power:+5V #PWR0112
+U 1 1 5F21A50A
+P 6150 2300
+F 0 "#PWR0112" H 6150 2150 50  0001 C CNN
+F 1 "+5V" H 6165 2473 50  0000 C CNN
+F 2 "" H 6150 2300 50  0001 C CNN
+F 3 "" H 6150 2300 50  0001 C CNN
+	1    6150 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse_Small F1
+U 1 1 5F21B9E5
+P 5600 2300
+F 0 "F1" V 5395 2300 50  0000 C CNN
+F 1 "500mA" V 5486 2300 50  0000 C CNN
+F 2 "" H 5650 2100 50  0001 L CNN
+F 3 "~" H 5600 2300 50  0001 C CNN
+	1    5600 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 2300 4900 2300
+Wire Wire Line
+	5700 2300 6150 2300
+$Comp
+L power:VCC #PWR0113
+U 1 1 5F21CC57
+P 4900 2200
+F 0 "#PWR0113" H 4900 2050 50  0001 C CNN
+F 1 "VCC" H 4915 2373 50  0000 C CNN
+F 2 "" H 4900 2200 50  0001 C CNN
+F 3 "" H 4900 2200 50  0001 C CNN
+	1    4900 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2200 4900 2300
+Connection ~ 4900 2300
+Wire Wire Line
+	4900 2300 5500 2300
+$Comp
+L power:GND #PWR0114
+U 1 1 5F21DA00
+P 3600 5150
+F 0 "#PWR0114" H 3600 4900 50  0001 C CNN
+F 1 "GND" H 3605 4977 50  0000 C CNN
+F 2 "" H 3600 5150 50  0001 C CNN
+F 3 "" H 3600 5150 50  0001 C CNN
+	1    3600 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 4900 3600 5150
+Wire Wire Line
+	3900 4900 3900 5150
+Wire Wire Line
+	3900 5150 3600 5150
+Connection ~ 3600 5150
+NoConn ~ 4500 3300
+NoConn ~ 4500 3400
+NoConn ~ 4500 3600
+NoConn ~ 4500 3700
+NoConn ~ 4500 3900
+NoConn ~ 4500 4000
+NoConn ~ 4500 4200
+NoConn ~ 4500 4300
+NoConn ~ 4500 4500
+NoConn ~ 4500 4600
+Wire Wire Line
+	4500 2800 4600 2800
+Wire Wire Line
+	4600 2800 4600 2850
+Wire Wire Line
+	4600 2900 4500 2900
+Wire Wire Line
+	4500 3000 4600 3000
+Wire Wire Line
+	4600 3000 4600 3050
+Wire Wire Line
+	4600 3100 4500 3100
+Text GLabel 5350 2850 2    50   Input ~ 0
+D-
+Text GLabel 5350 3050 2    50   Input ~ 0
+D+
+Wire Wire Line
+	4600 3050 5350 3050
+Connection ~ 4600 3050
+Wire Wire Line
+	4600 3050 4600 3100
+Wire Wire Line
+	5350 2850 4600 2850
+Connection ~ 4600 2850
+Wire Wire Line
+	4600 2850 4600 2900
+$EndSCHEMATC
