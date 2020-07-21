@@ -16,5 +16,5 @@ This repo contains a 60% keyboard PCB design made by following tutorials
 
 ## Tutorial Reference Links
 
-[RuiQiMao's keyboard tutorial](https://github.com/ruiqimao/keyboard-pcb-guide)
-[ai03's keyboard tutorial](https://wiki.ai03.com/books/pcb-design/page/pcb-guide-part-1---preparations)
+* [RuiQiMao's keyboard tutorial](https://github.com/ruiqimao/keyboard-pcb-guide)
+* [ai03's keyboard tutorial](https://wiki.ai03.com/books/pcb-design/page/pcb-guide-part-1---preparations)
