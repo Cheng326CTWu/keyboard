@@ -3877,7 +3877,7 @@
   )
 
   (module Connector_USB:USB_C_Receptacle_GCT_USB4085 (layer B.Cu) (tedit 5BCCCD93) (tstamp 5F19798A)
-    (at 330.0875 97.63125)
+    (at 330.0875 100.0125)
     (descr "USB 2.0 Type C Receptacle, https://gct.co/Files/Drawings/USB4085.pdf")
     (tags "USB Type-C Receptacle Through-hole Right angle")
     (path /5F1E9392/5F21522B)
