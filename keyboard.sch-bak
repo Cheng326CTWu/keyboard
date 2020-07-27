@@ -463,90 +463,43 @@ Wire Wire Line
 Wire Wire Line
 	5350 2250 5350 2350
 Connection ~ 5250 2250
-Wire Wire Line
-	5850 3850 6550 3850
-Wire Wire Line
-	5850 3950 6550 3950
-Wire Wire Line
-	5850 4050 6550 4050
-Wire Wire Line
-	5850 4150 6550 4150
-Wire Wire Line
-	5850 4350 6550 4350
-Text GLabel 6550 3850 2    50   Input ~ 0
+Text GLabel 5850 5450 2    50   Input ~ 0
 ROW0
-Text GLabel 6550 3950 2    50   Input ~ 0
+Text GLabel 5850 5550 2    50   Input ~ 0
 ROW1
-Text GLabel 6550 4050 2    50   Input ~ 0
+Text GLabel 5850 4050 2    50   Input ~ 0
 ROW2
-Text GLabel 6550 4150 2    50   Input ~ 0
+Text GLabel 5850 4150 2    50   Input ~ 0
 ROW3
-Text GLabel 6550 4350 2    50   Input ~ 0
+Text GLabel 5850 4350 2    50   Input ~ 0
 ROW4
-Wire Wire Line
-	5850 2650 6550 2650
-Wire Wire Line
-	5850 2750 6550 2750
-Wire Wire Line
-	5850 2850 6550 2850
-Wire Wire Line
-	5850 2950 6550 2950
-Wire Wire Line
-	5850 3050 6550 3050
-Wire Wire Line
-	5850 3150 6550 3150
-Wire Wire Line
-	5850 3250 6550 3250
-Wire Wire Line
-	5850 3350 6550 3350
-Wire Wire Line
-	5850 3550 6550 3550
-Wire Wire Line
-	5850 3650 6550 3650
-Wire Wire Line
-	5850 5050 6550 5050
-Wire Wire Line
-	5850 5150 6550 5150
-Wire Wire Line
-	5850 5250 6550 5250
-Wire Wire Line
-	5850 5350 6550 5350
-Wire Wire Line
-	5850 5450 6550 5450
-NoConn ~ 5850 5550
-NoConn ~ 5850 4250
-NoConn ~ 5850 4550
-NoConn ~ 5850 4450
-NoConn ~ 5850 4850
-Text GLabel 6550 2650 2    50   Input ~ 0
-COL0
-Text GLabel 6550 2750 2    50   Input ~ 0
+Text GLabel 5850 2650 2    50   Input ~ 0
 COL1
-Text GLabel 6550 2850 2    50   Input ~ 0
+Text GLabel 5850 4850 2    50   Input ~ 0
 COL2
-Text GLabel 6550 2950 2    50   Input ~ 0
+Text GLabel 5850 5050 2    50   Input ~ 0
 COL3
-Text GLabel 6550 3050 2    50   Input ~ 0
+Text GLabel 5850 5150 2    50   Input ~ 0
 COL4
-Text GLabel 6550 3150 2    50   Input ~ 0
+Text GLabel 5850 5250 2    50   Input ~ 0
 COL5
-Text GLabel 6550 3250 2    50   Input ~ 0
+Text GLabel 5850 5350 2    50   Input ~ 0
 COL6
-Text GLabel 6550 3350 2    50   Input ~ 0
+Text GLabel 5850 3650 2    50   Input ~ 0
 COL7
-Text GLabel 6550 3550 2    50   Input ~ 0
+Text GLabel 5850 3550 2    50   Input ~ 0
 COL8
-Text GLabel 6550 3650 2    50   Input ~ 0
+Text GLabel 5850 3250 2    50   Input ~ 0
 COL9
-Text GLabel 6550 5050 2    50   Input ~ 0
+Text GLabel 5850 3150 2    50   Input ~ 0
 COL10
-Text GLabel 6550 5150 2    50   Input ~ 0
+Text GLabel 5850 3050 2    50   Input ~ 0
 COL11
-Text GLabel 6550 5250 2    50   Input ~ 0
+Text GLabel 5850 4550 2    50   Input ~ 0
 COL12
-Text GLabel 6550 5350 2    50   Input ~ 0
+Text GLabel 5850 4450 2    50   Input ~ 0
 COL13
-Text GLabel 6550 5450 2    50   Input ~ 0
+Text GLabel 5850 4250 2    50   Input ~ 0
 COL14
 $Sheet
 S 8100 2600 2650 2550
@@ -608,4 +561,11 @@ Wire Wire Line
 	6950 1200 7100 1200
 Wire Wire Line
 	7100 1200 7100 1100
+NoConn ~ 5850 2850
+NoConn ~ 5850 2950
+Text GLabel 5850 2750 2    50   Input ~ 0
+COL0
+NoConn ~ 5850 3350
+NoConn ~ 5850 3850
+NoConn ~ 5850 3950
 $EndSCHEMATC
